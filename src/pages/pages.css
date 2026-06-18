@@ -6,7 +6,8 @@
 .terms-hero,
 .about-hero,
 .solutions-hero,
-.contact-hero {
+.contact-hero ,
+ .notfound-hero{
   padding: 140px 0 60px;
   text-align: center;
   background-image: radial-gradient(
@@ -26,7 +27,8 @@
 .terms-hero::before,
 .about-hero::before,
 .solutions-hero::before,
-.contact-hero::before {
+.contact-hero::before ,
+.notfound-hero::before {
   content: "";
   position: absolute;
   width: 500px;
@@ -44,7 +46,9 @@
 .terms-hero-content,
 .about-hero-content,
 .solutions-hero-content,
-.contact-hero-content {
+.contact-hero-content ,
+.notfound-hero-content
+ {
   max-width: 700px;
   margin: 0 auto;
 }
